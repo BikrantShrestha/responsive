@@ -1,0 +1,386 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top{
+    width: 100%;
+    height: 80px;
+    background-color: #4fb3d4;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(asset\ 30.png );
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 0px;
+  }
+
+  .whole-container{
+    max-width: 60%;
+    margin-left: 20%;
+}
+.logo{
+    margin-top: 7px;
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    padding: 20px;
+}
+.navlists{
+    margin-left: 180px;
+    width: 100%;
+    }
+.navlists li{
+    list-style: none;
+    display: inline;
+    margin-left: 48px;
+    
+}
+.navlists li a {
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+} 
+button{
+    font-size: 23px;
+    font-weight: bold;
+    height: 60px;
+    width: 110px;
+    border-radius: 10px;
+    border: 1px solid #0f495a ;
+    background-color: white;
+    
+}
+.button2{
+    background-color: #2294ed;
+    color: white;
+    border: none;
+    width: 110px;
+}
+.navlists li a:hover{
+    color: #2294ed;
+}
+.navlists li button:hover{
+    color: #2294ed;
+    border:1px solid  #2294ed;
+}
+.navlists li .button2:hover{
+    background-color: #2073b2;
+    box-shadow: 20px;
+    color: white;
+}
+/* second part */
+.first-container{
+    display: flex;
+    margin-top: 30px;
+    height: 550px;
+    padding: 20px;
+
+}
+
+.first-container h1{
+    font-size: 65px;
+    color: #183b56;
+}
+.first-container p{
+    font-size: 30px;
+    margin-top: 20px;
+    color: #577599;
+}
+
+.first-first{
+ margin-top: 115px;    
+}
+.button3{
+    background-color: #2294ed;
+    color: white;
+    width: 180px;
+    margin-top: 20px;
+    border: none;
+}
+ .button3:hover{
+    background-color: #2073b2;
+ }
+ /* 3rd */
+ .third{
+    text-align: center;
+    color: #183b56;
+    font-size: 25px;
+    font-weight: bolder;
+ }
+ /* 4th part */
+  .logos{
+    display: flex;
+    margin-top: 35px;
+    justify-content: space-between;
+  }
+  .godaddy{
+    margin-top: 15px;
+  }
+  /* sth part */
+  .fifth{
+    background-image: url(back.svg);
+    background-repeat: no-repeat;
+    height: 800px;     
+    background-position: center;
+    
+}
+.fifth-grid-container{
+    margin-left: 58px;
+    display: grid;
+    grid-template-columns:450px 450px 450px;
+    grid-template-rows: 340px 340px;
+    row-gap: 0px;
+}
+.fifth .heading{
+    text-align: center;
+    font-size: 45px;
+    color: #183b56;
+    margin-top: 100px;
+  }
+
+.button4{
+    margin-top: 30px;
+    margin-left: 40%;
+    height: 70px;
+    width: 250px;
+    font-weight: 550;
+    color:  #183b56;
+    border: 1px solid  #183b56 ;
+}
+/* fifth grid */
+.fifth-grid{
+    margin-top: 50px;
+   
+}
+.fifth-head{
+    color: #183b56;
+    font-size: 40px;
+    
+}
+.card-sorting{
+
+    height: 320px;
+    width: 400px;
+    text-align: center;
+}
+    .card-sorting p{
+        font-size: 30px;
+        margin-top: 20px;
+        color: #578bc0 ;
+    } 
+    .card-sorting h1{margin-top: 20px;}
+   
+    .button5{
+      margin-top: 20px;  
+      width: 220px;
+      color:  #183b56;
+      border: 1px solid  #183b56;
+    }
+    .button5:hover{
+        color: #2294ed;
+        border-color: #2294ed;
+    }
+   .button4:hover{
+    color: #2294ed;
+    border-color: #2294ed;
+   }
+   /* sixth part */
+   .sixth-container{
+    margin-top: 120px;
+    display: flex;
+   }
+
+    .sixth-second{
+        margin-top: 220px;
+        color: #183b56;
+    }
+   .Effortless{
+    font-size: 25px;
+   }
+   .designprofessional{
+    font-size: 40px;
+   }
+   .testinterface{
+    font-size: 28px;
+   }
+   /* 7th part */
+   .seventh-container{
+    margin-top: 120px;
+    display: flex;
+   }
+
+   .seventh-first{
+    
+    margin-top: 220px;
+    color: #183b56;
+   }
+   /* eightth part */
+
+   .eight-container{
+    margin-top: 120px;
+    display: flex;
+   }
+
+   .eight-second{
+    
+    margin-top: 220px;
+    color: #183b56;}
+
+    /* 9th 10th part */
+    .one-platform{
+        color: #183b56;
+        text-align: center;
+        font-size: 55px;
+        margin-top: 10px;
+    }
+    .tenth{
+        width: 300px;
+        margin-left: 600px;
+        height: 70px;
+        margin-top: 20px;
+        font-weight: bolder;
+    }
+    .tenth:hover{
+        color: #2294ed ;
+        border-color: #2294ed ;
+    }
+    /* 11th part */
+    .eleven{
+        padding: 20px;
+        margin-top: 190px;
+        font-size: 35px;
+        font-weight: 900;
+        color: white;
+    }
+    .eleven-flex{
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between ;
+    }
+    .software-interface{
+        height: 380px;
+        width: 330px;
+        background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(softwareinterface.jpeg);
+                     }
+                    
+      .elevenone{
+        padding: 20px;
+        margin-top: 230px;
+        font-size: 35px;
+        font-weight: 900;
+        color: white;
+      }  
+
+      .elevensecond{
+        height: 380px;
+        width: 330px;
+        background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(112nd.jpeg);
+                 
+      }
+
+      .eleventhird{
+        height: 380px;
+        width: 330px;
+        background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(eleventhird.jpeg);
+                 
+      }
+
+      .elevenfourth{
+        height: 380px;
+        width: 330px;
+        background-color: gray;
+                 
+      }
+      /* 12th part */
+       .twelve{
+        background-color: #183b54;
+        height: 500px;
+        width: 100%; 
+        margin-top: 50px;
+        text-align: center;  
+    }
+      
+    .twelve h1{
+        color: white;
+        font-size: 50px;
+        padding-top: 180px;
+        
+    }
+    .twelve p{
+        color: white;
+        font-size: 30px;
+        margin-top: 40px;
+    }
+    .twelve button{
+        width: 200px;
+        height: 70px;
+        background-color: #50c1e7 ;
+        color: white;
+        margin-top: 30px;
+    }
+    .twelve button:hover{
+        background-color: #2073b2 ;
+    }
+    /* 13th part */
+    .last-logo{
+        margin-top: 20px;
+    }
+    .last-flex{
+        padding: 10px;
+        margin-top: 60px;
+        width: 60%;
+        margin-left: 20%;
+        display: flex;
+        justify-content: space-between;
+        font-size: 25px;
+    }
+    .last-flex b{
+        color:#183b54;
+        font-size: 30px;
+    }
+    .last-flex a{
+        color:#183b54;
+        text-decoration: none;
+        
+    }
+    .last-flex li{
+        list-style: none;
+        margin-top: 20px;
+    }
+    
+    .last-flex a:hover{
+        color: #2294ed;
+    }
+    /* last */
+    .lastt{
+        margin-top: 100px;
+        background-color: #b9cde4;
+        height: 70px;
+        padding: 25px;
+    }
+    
+
+    .lastt a{
+        color: white;
+        font-size: 25px;
+        text-decoration: none;
+        color: #183b54 ;
+    }
+    .lastt ul{
+        margin-left: 830px;
+    }
+
+    .lastt li{
+        list-style: none;
+        display: inline;
+        margin-left: 30px;
+    }
+
+    .lastt a:hover{
+        color: #2294ed;
+    }
+    
